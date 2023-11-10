@@ -53,19 +53,12 @@ p {
   color: #7ed957;
 }
 .header {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 15%;
-  left: 50%;
-  font-size: 27px;
+  text-align: center;
+  font-size: 25px;
   background-color: #001524;
-  padding: 10px 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  padding: 20px 20px;
   color: #7ed957;
+  text-align: center;
 }
 
 h1 {
@@ -130,5 +123,17 @@ button:hover {
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+    width: 600px;
+    column-gap: 5px;
+  }
+
+  .dice-wrapper {
+    width: 80%;
   }
 }
