@@ -52,6 +52,21 @@ p {
   text-align: center;
   color: #7ed957;
 }
+.header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 50%;
+  font-size: 27px;
+  background-color: #001524;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #7ed957;
+}
 
 h1 {
   font-size: 20px;
