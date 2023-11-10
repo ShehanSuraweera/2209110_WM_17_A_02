@@ -11,10 +11,25 @@
       <div class="dice-wraper">
         <img src="./images/dice-1.svg" alt="" id="die-1" />
 
-        <img src="./images/dice-2.svg" alt="" id="die-2" />
+        <h1>Player 01</h1>
+        <p id="player-1" class="result">Result:</p>
       </div>
-      <p id="total">Demo text</p>
-      <button onclick="roll()">Role the Dice</button>
+      <div class="dice-wraper">
+        <img src="./images/dice-2.svg" alt="" id="die-2" />
+        <h1>Player 02</h1>
+        <p id="player-2" class="result">Result:</p>
+      </div>
+      <div>
+        <button onclick="roll()">ROLE THE DICE</button>
+        <p id="congtraz" style="visibility: hidden">Congratulations!!!</p>
+        <p id="winner"></p>
+        <img
+          src="./images/winner.svg"
+          id="cup"
+          class="cup"
+          style="visibility: hidden"
+        />
+      </div>
     </div>
 
     <script src="script.js"></script>
